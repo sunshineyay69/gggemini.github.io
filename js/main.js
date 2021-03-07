@@ -6,4 +6,4 @@ function RemoveShit() {
     document.body.removeChild(divs[divs.length - 1]);
 }
 
-setTimeout(RemoveShit, 100);
+//setTimeout(RemoveShit, 100);
