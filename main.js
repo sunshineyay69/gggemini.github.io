@@ -34,4 +34,4 @@ let interval = setInterval(() => {
     } else {
         text.innerHTML += newChar;
     }
-}, 10);
+}, 100);

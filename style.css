@@ -55,7 +55,7 @@ div#text {
     justify-content: center;
     text-align: center;
     animation: light 5s linear infinite;
-    font-size: calc(1.2vh + 0.8vw);
+    font-size: calc(1.2vh + 0.6vw);
     line-height: 4vh;
 }
 
