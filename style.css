@@ -65,7 +65,7 @@ audio {
     height: 5%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     div#outerBlock {
         height: 80%;
     }
