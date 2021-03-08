@@ -7,7 +7,7 @@ let goodNightText =
     "мы уверены, что у тебя всегда всё получится!\n" +
     "С праздником от семьи Мараховских!!!";
 
-let images = ["1.jpg", "2.jpg", "3.jpg"];
+let images = ["1.JPG", "2.JPG", "3.JPG"];
 
 let i = 0,
     u = 1;
