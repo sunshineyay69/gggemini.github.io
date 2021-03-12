@@ -3,6 +3,9 @@ body {
     margin: 0;
     overflow-x: hidden;
     color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 7vw;
 }
 
 div#firstSection {
@@ -21,19 +24,12 @@ video#backgroundVideo {
 
 div#content {
     position: absolute;
-    width: 1100px;
-    max-width: 100%;
+    width: 100%;
     height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.7);
-}
-
-div {
-    font-weight: bold;
-    text-align: center;
-    font-size: 7vw;
 }
 
 a {
@@ -53,9 +49,4 @@ a.I {
 span.hearth {
     color: #f5acff;
     text-shadow: 0 0 1vh #f5acff;
-}
-
-div#timer {
-    text-align: center;
-    font-size: 7vw;
 }
