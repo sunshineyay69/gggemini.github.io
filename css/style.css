@@ -27,7 +27,7 @@ div#content {
 div {
     font-weight: bold;
     text-align: center;
-    font-size: 10vh;
+    font-size: 7vw;
 }
 
 a {
@@ -51,5 +51,5 @@ span.hearth {
 
 div#timer {
     text-align: center;
-    font-size: 12vh;
+    font-size: 7vw;
 }
