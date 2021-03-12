@@ -8,8 +8,6 @@ body {
 }
 
 video#backgroundVideo {
-    display: block;
-    padding: 0;
-    margin: 0;
+    position: absolute;
     height: 100%;
 }
