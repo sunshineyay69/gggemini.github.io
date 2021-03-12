@@ -1,15 +1,21 @@
 body {
-    height: 100vh;
-    display: flex;
+
     margin: 0;
-    align-items: center;
-    justify-content: center;
     overflow-x: hidden;
     color: #ffffff;
 }
 
+div#firstSection {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 video#backgroundVideo {
-    position: absolute;
+    position: fixed;
+    display: block;
     height: 100%;
 }
 
