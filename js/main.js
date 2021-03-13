@@ -1,17 +1,16 @@
-
-
 let timeStartMeet = new Date(2020, 1, 13, 19);
-let timeMeetYet;
+let timeMeetYet = new Date(new Date() - timeStartMeet);
 let timer = document.getElementById("timer");
+let timeTik = 1000;
 
 timer.innerText = getTime();
 
 setInterval(() => {
     timer.innerText = getTime();
-}, 1000)
+}, timeTik)
 
 function getTime() {
-    timeMeetYet = new Date(new Date() - timeStartMeet);
+    timeMeetYet += timeTik;
 
     let mils = new Date() - timeStartMeet;
     let seconds = mils / 1000;
