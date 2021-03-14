@@ -17,7 +17,7 @@ function getTime() {
     let minutes = seconds / 60;
     let hours = minutes / 60;
     let days = hours / 24;
-    let month = days / (365 / 12);
+    let month = days / (365.5 / 12);
 
     let year = month / 12;
     month = month % 12;
